@@ -1,0 +1,100 @@
+#main {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  position: relative;
+}
+
+#title {
+  margin: -8px -8px 1.5em -8px;
+  display: flex;
+  height: 175px;
+  background-color: #db0007;
+  background-image: 
+    linear-gradient(to right,
+      rgba(219, 0, 7, 1),
+      rgba(239, 1, 7, .6)
+    ),
+    url("https://images.unsplash.com/photo-1563580853176-38535245e8b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=741&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#header-title {
+  margin-left: .3em;
+  align-self: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+#tribute-info {
+  padding-bottom: 3rem;
+  max-width: 85%;
+  margin: auto;
+}
+
+.section-heading {
+  font-weight: 400;
+}
+
+.tribute-section {
+  margin-left: .1em;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#glory-info {
+  flex: 2 2 1;
+}
+
+#img-div {
+  flex: 2 0 2;
+  max-width: 500px;
+  height: auto;
+}
+
+.caption {
+  font-size: .8em;
+  color: grey;
+  text-align: center;
+}
+
+hr {
+  color: #9c824a;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#emirates-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#emirates-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .95em
+}
+
+blockquote {
+  color: grey;
+}
